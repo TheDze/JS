@@ -1,0 +1,84 @@
+ol {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    background-color:#FFF;
+    font-size:17px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+  }
+  ol a {
+    display:block;
+    text-decoration:none;
+    color:#5AB09A;
+    padding:0 5px;
+  }
+  ol > li {
+    float:left;
+    width:150px;
+    margin-left:1px;
+    background-color:#123456;
+    height:2em;
+  }
+  ol > li:first-child {
+    margin-left:0;
+  }
+  ol > li:hover {
+    border:1px solid #81FCDE;
+    font-size:14px;
+  }
+  ol > li:hover > a {
+    color:#397062;
+  }
+  ol > li:hover > ul {
+    display:block;
+  }
+  ol > li > ul {
+    display:none;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+  }
+  ol > li > ul > li {
+    position:relative;
+    background-color:#6DD6BC;
+  }
+  ol > li > ul > li > a {
+    border-top:1px solid #81FCDE;
+    font-size:14px;
+    border: 2px solid green;
+  }
+  ol > li > ul > li:hover {
+    background-color:#7AF0D3;
+  }
+  ol > li > ul > li:hover > a {
+    color:#fa30aa;
+    font-size:14px;
+    border: 1px solid red;
+  }
+  ol > li > ul > li:visited > a {
+    color:#000;
+    font-size:14px;
+    border: 1px solid red;
+  }
+  ol > li#klapek:hover img{
+      display: block;
+      padding-left: 27%;
+  }
+  #zdjecie {
+      display: none;
+  }
+  ol > li > ul > li {
+      position: relative;
+  }
+  ol > li > ul > li > ol {
+    display: none;
+    position: absolute;
+    left: 100%;
+    width: 150%;
+    margin-top: -2em;
+  }
+  ol > li > ul > li:hover > ol {
+    display:block;
+  }
