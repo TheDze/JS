@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<body>
+<canvas width="500" height="500"></canvas>
+<script>
+    const canvas = document.querySelector("canvas");
+    const ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(50, 50, 30, 0, 2 * Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(40, 45, 4, 0, 2 * Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(60, 45, 4, 0, 2 * Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(30, 220, 6, 0, 2 * Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(70, 220, 6, 0, 2 * Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(20, 210, 8, 0.5, 1.5 * Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(80, 210, 8, 0.9, 1.5 * Math.PI, true);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.ellipse(50, 65, 14, 6, Math.PI * 0, 0, Math.PI, false);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.moveTo(50, 80);
+        ctx.lineTo(50, 150);
+        ctx.lineTo(30, 210);
+        ctx.moveTo(50, 150);
+        ctx.lineTo(70, 210);
+        ctx.moveTo(50, 80);
+        ctx.lineTo(70, 115);
+        ctx.lineTo(100, 60);
+        ctx.lineTo(65, 125);
+        ctx.moveTo(50, 80);
+        ctx.lineTo(30, 115);
+        ctx.moveTo(20, 202);
+        ctx.lineTo(80, 202);
+        ctx.moveTo(20, 216);
+        ctx.lineTo(87.5, 216);
+        ctx.stroke();
+        
+</script>
+</body>
+</html>
