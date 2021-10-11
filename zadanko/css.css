@@ -1,0 +1,36 @@
+div#glowny {
+    width: 99%;
+    border: 1px solid rgb(0, 0, 255);
+}
+div#glowny:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+div#glowny > img {
+    float: right;
+    width: 20%;
+    padding: 2.5%;
+    margin: 2.5%;
+    border: 1px solid rgb(255, 0, 0)
+}
+div#boczny {
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+td.jeden {
+    width: 60%;
+    border: 1px solid rgb(0, 0, 0);
+}
+td.dwa {
+    width: 40%;
+    border: 1px solid rgb(0, 0, 0);
+}
+td > img {
+    width: 30%;
+    padding: 2%;
+    margin: 5%;
+    border: 1px solid rgb(0, 255, 0)
+}
