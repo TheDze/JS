@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name='keywords' content="HTML, CSS, JavaScript, PHP, jQuery">
+<title>Fajne samochody</title>
+<style>
+    div#baner {
+        float: left;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: #FF9999;
+    }
+    div#baner > img {
+        position: relative;
+        top: 20%;
+        border: 2px solid white;
+    }
+    div#baner > img:hover {
+        background-color: yellow;
+    }
+    div#lewy {
+        float: left;
+        width: 20%;
+        height: 500px;
+        background-color: pink;
+    }
+    div#tresc {
+        float: left;
+        text-align: center;
+        width: 60%;
+        height: 500px;
+        background-color: grey;
+        color: black;
+    }
+    div#tresc > img {
+        position: relative;
+        top: 25%;
+    }
+    div#prawy {
+        float: left;
+        text-align: center;
+        width: 20%;
+        height: 500px;
+        background-color: lightgreen;
+    }
+    div#stopka {
+        float: left;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+    }
+    div#stopka > p {
+        color: white;
+        text-align: center;
+    }
+</style>
+<script>
+    function cos() {
+    var cenaa=document.getElementById('cena').value
+    var iloscc=document.getElementById('ilosc').value
+    var znizkaa=document.getElementById('znizka').checked
+    var wynik=cenaa*iloscc
+    if (znizkaa.checked === true){
+        poznizce=wynik*0,30
+        alert('Razem: '+poznizce)
+    } else {
+        alert('razem: '+wynik)
+    }
+    }
+</script>
+</head>
+<body>
+<div id='baner'>
+    <img src='grafika/maudi.png' alt="audi">
+    <img src='grafika/mcintroen.png' alt="citroen">
+    <img src='grafika/mhonda.png' alt="honda">
+</div>
+<div id='lewy'>
+
+</div>
+<div id='tresc'>
+    <img src='grafika/honda.jpg' alt="honda" width='320px' height="200px">
+</div>
+<div id='prawy'>
+    <p>Cena:</p>
+    <input type='text' id='cena' value="19900">
+    <p>Ilość:</p>
+    <input type='text' id='ilosc'>
+    Zniżka 30%<input type='checkbox' id='znizka'><br>
+    <button onclick='cos()'>Oblicz</button>
+</div>
+<div id='stopka'>
+    <p>PESEL: 82022500858</p>
+</div>
+</body>
+</html>
