@@ -1,0 +1,12 @@
+#jeden {
+    border: 2px solid red;
+    color: red;
+}
+#dwa {
+    border: 2px solid green;
+    color: green;
+}
+#trzy {
+    background-image: url("1.png");
+    border-radius: 20px;
+}
