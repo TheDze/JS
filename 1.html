@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanko</title>
+</head>
+<body>
+    Imie:<input type='text' id='imie'>
+    <p>Spodnie</p>
+    Rozmiar:<input type='text' id='rozmiar'>
+    Marka:<input type='text' id='marka'>
+    <p>Czapka</p>
+    Marka:<input type='text' id='marka2'><br>
+    <button onclick="innecos()">Wyślij</button>
+<script>
+    function cos() {
+        console.log(this);
+    }
+    function innecos() {
+        const imie= {
+            imiee: document.getElementById('imie').value,
+            showText: cos
+        }
+        const spodnie= {
+            rozmiarr: document.getElementById('rozmiar').value,
+            markaa: document.getElementById('marka').value,
+            showText: cos
+        }
+        const czapka= {
+            markaaa: document.getElementById('marka2').value,
+            showText: cos
+        }
+        imie.showText();
+        spodnie.showText();
+        czapka.showText();
+    }
+</script>
+</body>
+</html>
