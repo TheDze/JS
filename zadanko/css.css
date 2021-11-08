@@ -1,0 +1,11 @@
+table{
+    border: 2px solid gray;
+    background-image: linear-gradient(#2d30c4,#9c9ee6);
+}
+table td{
+    border: 2px solid gray;
+}
+.cos{
+    background-color: #347bed;
+    text-align: center;
+}
