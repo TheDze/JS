@@ -1,0 +1,15 @@
+table{
+    border: 2px solid #273080;
+    background-image: linear-gradient(#2d30c4,#9c9ee6);
+}
+table td{
+    border: 2px solid #273080;
+    text-align: center;
+}
+.cos{
+    background-color: #3946bd;
+    text-align: center;
+}
+#butony{
+    display: flex;
+}
